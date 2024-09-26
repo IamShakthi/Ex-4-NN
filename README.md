@@ -1,6 +1,6 @@
 
-<H3>ENTER YOUR NAME: YUVASAKTHI N.N</H3>
-<H3>ENTER YOUR REGISTER NO:212222240120</H3>
+<H3>NAME: YUVASAKTHI N.C</H3>
+<H3>REGISTER NO: 212222240120</H3>
 <H3>EX. NO.4</H3>
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
@@ -115,6 +115,7 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 <H3>Program:</H3> 
+
 ```
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -139,13 +140,13 @@ m1.fit(training_a, training_b.values.ravel())
 predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
-
 ```
+
 
 
 <H3>Output:</H3>
 
-![image](https://github.com/user-attachments/assets/a8361b43-27fc-4aa7-b2b4-afa3f042e91a)
+![image](https://github.com/user-attachments/assets/60d4ce94-a8f4-413f-891a-30578d52fdfa)
 
 
 <H3>Result:</H3>
